@@ -1,0 +1,645 @@
+{
+  "summary": {
+    "corpus_documents": 60,
+    "distinct_sources": 32,
+    "distinct_topics": 29,
+    "qa_bank_size": 12,
+    "queries_evaluated": 17,
+    "graded_queries": 16,
+    "hit_at_1": 0.812,
+    "hit_at_4": 1.0,
+    "mrr": 0.865,
+    "answers_matching_question": 9,
+    "latency_ms_median": 0.258,
+    "latency_ms_max": 0.527,
+    "rerank_score_by_rank_over_50_runs": {
+      "rank_1": {
+        "min": 0.911,
+        "max": 0.931,
+        "mean": 0.9212
+      },
+      "rank_2": {
+        "min": 0.823,
+        "max": 0.842,
+        "mean": 0.8326
+      },
+      "rank_3": {
+        "min": 0.735,
+        "max": 0.755,
+        "mean": 0.7444
+      },
+      "rank_4": {
+        "min": 0.647,
+        "max": 0.666,
+        "mean": 0.656
+      }
+    }
+  },
+  "rows": [
+    {
+      "query": "What is the current RBI repo rate?",
+      "in_qa_bank": true,
+      "expected_primary_doc": "IND001",
+      "retrieved_ids": [
+        "IND001",
+        "IND002",
+        "IND004",
+        "IND003"
+      ],
+      "rerank_scores": [
+        0.92,
+        0.831,
+        0.744,
+        0.657
+      ],
+      "dense_scores": [
+        0.954,
+        0.84,
+        0.771,
+        0.673
+      ],
+      "sparse_scores": [
+        0.88,
+        0.783,
+        0.687,
+        0.641
+      ],
+      "hit_at_1": true,
+      "hit_at_4": true,
+      "rr": 1.0,
+      "answer_mode": "canned",
+      "canned_answer_from": "What is the current RBI repo rate?",
+      "answer_matches_question": true,
+      "latency_ms": 0.386,
+      "answer": "The Reserve Bank of India's Monetary Policy Committee reduced the policy repo rate by 25 basis points to 6.25 percent in February 2025, marking the first rate cut in nearly five years. The standing deposit facility rate was adjusted to 6.00 percent and the marginal standing facility rate to 6.50 percent. The MPC retained a neutral stance, with the decision supported by headline inflation moderating to 5.22 percent in December 2024. RBI projects CPI inflation at 4.2 percent for FY 2025-26."
+    },
+    {
+      "query": "How did Indian equity markets perform in FY 2024-25?",
+      "in_qa_bank": true,
+      "expected_primary_doc": "IND009",
+      "retrieved_ids": [
+        "IND009",
+        "IND010",
+        "IND011",
+        "IND012"
+      ],
+      "rerank_scores": [
+        0.924,
+        0.843,
+        0.741,
+        0.66
+      ],
+      "dense_scores": [
+        0.931,
+        0.84,
+        0.772,
+        0.679
+      ],
+      "sparse_scores": [
+        0.88,
+        0.807,
+        0.723,
+        0.64
+      ],
+      "hit_at_1": true,
+      "hit_at_4": true,
+      "rr": 1.0,
+      "answer_mode": "canned",
+      "canned_answer_from": "How did Indian equity markets perform in FY 2024-25?",
+      "answer_matches_question": true,
+      "latency_ms": 0.33,
+      "answer": "The Nifty 50 closed FY 2024-25 at 23,519 points, gaining 5.3 percent for the financial year, substantially lower than the 28.6 percent return in FY 2023-24. The BSE Sensex ended at 77,415 points with a 4.9 percent return. The Nifty touched an all-time high of 26,277 in September 2024 before correcting approximately 16 percent. Foreign Portfolio Investors withdrew a record 1.42 lakh crore rupees, offset by Domestic Institutional Investors purchasing 6.06 lakh crore rupees."
+    },
+    {
+      "query": "What are the new income tax slabs in Budget 2025-26?",
+      "in_qa_bank": true,
+      "expected_primary_doc": "IND027",
+      "retrieved_ids": [
+        "IND027",
+        "IND028",
+        "IND031",
+        "IND044"
+      ],
+      "rerank_scores": [
+        0.92,
+        0.842,
+        0.74,
+        0.647
+      ],
+      "dense_scores": [
+        0.939,
+        0.854,
+        0.759,
+        0.682
+      ],
+      "sparse_scores": [
+        0.841,
+        0.807,
+        0.721,
+        0.619
+      ],
+      "hit_at_1": true,
+      "hit_at_4": true,
+      "rr": 1.0,
+      "answer_mode": "canned",
+      "canned_answer_from": "What are the new income tax slabs in Budget 2025-26?",
+      "answer_matches_question": true,
+      "latency_ms": 0.321,
+      "answer": "Under the Union Budget 2025-26, individuals earning up to 12 lakh rupees annually pay no income tax under the new regime, rising to 12.75 lakh rupees for salaried taxpayers including the 75,000 rupee standard deduction. The revised slabs are: 5 percent for 4-8 lakh, 10 percent for 8-12 lakh, 15 percent for 12-16 lakh, 20 percent for 16-20 lakh, 25 percent for 20-24 lakh, and 30 percent above 24 lakh rupees. The revenue foregone is estimated at 1 lakh crore rupees."
+    },
+    {
+      "query": "What is India's fiscal deficit target?",
+      "in_qa_bank": true,
+      "expected_primary_doc": "IND028",
+      "retrieved_ids": [
+        "IND028",
+        "IND029",
+        "IND033",
+        "IND035"
+      ],
+      "rerank_scores": [
+        0.928,
+        0.833,
+        0.741,
+        0.658
+      ],
+      "dense_scores": [
+        0.949,
+        0.857,
+        0.775,
+        0.685
+      ],
+      "sparse_scores": [
+        0.859,
+        0.752,
+        0.684,
+        0.598
+      ],
+      "hit_at_1": true,
+      "hit_at_4": true,
+      "rr": 1.0,
+      "answer_mode": "canned",
+      "canned_answer_from": "What is India's fiscal deficit target?",
+      "answer_matches_question": true,
+      "latency_ms": 0.258,
+      "answer": "The Union Budget 2025-26 set the fiscal deficit target at 4.4 percent of GDP, down from the revised estimate of 4.8 percent for FY 2024-25. Gross market borrowing is budgeted at 14.82 lakh crore rupees with net borrowing of 11.54 lakh crore rupees. The government committed to reducing central government debt to approximately 50 percent of GDP by March 2031. Capital expenditure was allocated 11.21 lakh crore rupees, representing 3.1 percent of GDP."
+    },
+    {
+      "query": "How is the Indian banking sector performing?",
+      "in_qa_bank": true,
+      "expected_primary_doc": "IND008",
+      "retrieved_ids": [
+        "IND008",
+        "IND019",
+        "IND006",
+        "IND021"
+      ],
+      "rerank_scores": [
+        0.927,
+        0.829,
+        0.737,
+        0.658
+      ],
+      "dense_scores": [
+        0.93,
+        0.848,
+        0.76,
+        0.672
+      ],
+      "sparse_scores": [
+        0.893,
+        0.757,
+        0.725,
+        0.629
+      ],
+      "hit_at_1": true,
+      "hit_at_4": true,
+      "rr": 1.0,
+      "answer_mode": "canned",
+      "canned_answer_from": "How is the Indian banking sector performing?",
+      "answer_matches_question": true,
+      "latency_ms": 0.254,
+      "answer": "Gross non-performing assets of scheduled commercial banks declined to a multi-decade low of 2.6 percent as of September 2024. Twelve public sector banks reported aggregate net profit of 1.29 lakh crore rupees for the first nine months of FY 2024-25, up 31.3 percent. The capital to risk-weighted assets ratio stood at 16.7 percent. However, bank credit growth moderated to 11.4 percent from 16.5 percent a year earlier, and the microfinance sector reported portfolio at risk rising to 6.4 percent."
+    },
+    {
+      "query": "What is happening with the Indian rupee?",
+      "in_qa_bank": true,
+      "expected_primary_doc": "IND034",
+      "retrieved_ids": [
+        "IND034",
+        "IND005",
+        "IND039",
+        "IND011"
+      ],
+      "rerank_scores": [
+        0.93,
+        0.832,
+        0.746,
+        0.65
+      ],
+      "dense_scores": [
+        0.953,
+        0.854,
+        0.764,
+        0.662
+      ],
+      "sparse_scores": [
+        0.867,
+        0.787,
+        0.692,
+        0.598
+      ],
+      "hit_at_1": true,
+      "hit_at_4": true,
+      "rr": 1.0,
+      "answer_mode": "canned",
+      "canned_answer_from": "What is the current RBI repo rate?",
+      "answer_matches_question": false,
+      "latency_ms": 0.21,
+      "answer": "The Reserve Bank of India's Monetary Policy Committee reduced the policy repo rate by 25 basis points to 6.25 percent in February 2025, marking the first rate cut in nearly five years. The standing deposit facility rate was adjusted to 6.00 percent and the marginal standing facility rate to 6.50 percent. The MPC retained a neutral stance, with the decision supported by headline inflation moderating to 5.22 percent in December 2024. RBI projects CPI inflation at 4.2 percent for FY 2025-26."
+    },
+    {
+      "query": "What is the state of Indian startup funding?",
+      "in_qa_bank": true,
+      "expected_primary_doc": "IND041",
+      "retrieved_ids": [
+        "IND041",
+        "IND042",
+        "IND015",
+        "IND021"
+      ],
+      "rerank_scores": [
+        0.921,
+        0.841,
+        0.753,
+        0.654
+      ],
+      "dense_scores": [
+        0.945,
+        0.834,
+        0.777,
+        0.687
+      ],
+      "sparse_scores": [
+        0.874,
+        0.797,
+        0.72,
+        0.619
+      ],
+      "hit_at_1": true,
+      "hit_at_4": true,
+      "rr": 1.0,
+      "answer_mode": "canned",
+      "canned_answer_from": "What is the current RBI repo rate?",
+      "answer_matches_question": false,
+      "latency_ms": 0.247,
+      "answer": "The Reserve Bank of India's Monetary Policy Committee reduced the policy repo rate by 25 basis points to 6.25 percent in February 2025, marking the first rate cut in nearly five years. The standing deposit facility rate was adjusted to 6.00 percent and the marginal standing facility rate to 6.50 percent. The MPC retained a neutral stance, with the decision supported by headline inflation moderating to 5.22 percent in December 2024. RBI projects CPI inflation at 4.2 percent for FY 2025-26."
+    },
+    {
+      "query": "How much GST is India collecting?",
+      "in_qa_bank": true,
+      "expected_primary_doc": "IND030",
+      "retrieved_ids": [
+        "IND030",
+        "IND031",
+        "IND001",
+        "IND002"
+      ],
+      "rerank_scores": [
+        0.927,
+        0.835,
+        0.744,
+        0.665
+      ],
+      "dense_scores": [
+        0.948,
+        0.864,
+        0.778,
+        0.676
+      ],
+      "sparse_scores": [
+        0.851,
+        0.806,
+        0.704,
+        0.646
+      ],
+      "hit_at_1": true,
+      "hit_at_4": true,
+      "rr": 1.0,
+      "answer_mode": "canned",
+      "canned_answer_from": "How much GST is India collecting?",
+      "answer_matches_question": true,
+      "latency_ms": 0.215,
+      "answer": "Gross Goods and Services Tax collections reached 22.08 lakh crore rupees in FY 2024-25, growing 9.4 percent over the previous year. Average monthly collection stood at 1.84 lakh crore rupees compared to 1.68 lakh crore rupees in FY 2023-24. March 2025 collections were 1.96 lakh crore rupees. Net GST collections after refunds were 19.56 lakh crore rupees. Separately, net direct tax collections reached 22.26 lakh crore rupees, growing 13.13 percent."
+    },
+    {
+      "query": "What is India's renewable energy capacity?",
+      "in_qa_bank": true,
+      "expected_primary_doc": "IND047",
+      "retrieved_ids": [
+        "IND047",
+        "IND052",
+        "IND048",
+        "IND001"
+      ],
+      "rerank_scores": [
+        0.923,
+        0.84,
+        0.737,
+        0.653
+      ],
+      "dense_scores": [
+        0.952,
+        0.849,
+        0.75,
+        0.659
+      ],
+      "sparse_scores": [
+        0.84,
+        0.79,
+        0.713,
+        0.634
+      ],
+      "hit_at_1": true,
+      "hit_at_4": true,
+      "rr": 1.0,
+      "answer_mode": "canned",
+      "canned_answer_from": "What is India's fiscal deficit target?",
+      "answer_matches_question": false,
+      "latency_ms": 0.244,
+      "answer": "The Union Budget 2025-26 set the fiscal deficit target at 4.4 percent of GDP, down from the revised estimate of 4.8 percent for FY 2024-25. Gross market borrowing is budgeted at 14.82 lakh crore rupees with net borrowing of 11.54 lakh crore rupees. The government committed to reducing central government debt to approximately 50 percent of GDP by March 2031. Capital expenditure was allocated 11.21 lakh crore rupees, representing 3.1 percent of GDP."
+    },
+    {
+      "query": "What did SEBI do about derivatives trading?",
+      "in_qa_bank": true,
+      "expected_primary_doc": "IND053",
+      "retrieved_ids": [
+        "IND053",
+        "IND054",
+        "IND014",
+        "IND015"
+      ],
+      "rerank_scores": [
+        0.914,
+        0.834,
+        0.748,
+        0.659
+      ],
+      "dense_scores": [
+        0.953,
+        0.858,
+        0.776,
+        0.651
+      ],
+      "sparse_scores": [
+        0.841,
+        0.755,
+        0.701,
+        0.624
+      ],
+      "hit_at_1": true,
+      "hit_at_4": true,
+      "rr": 1.0,
+      "answer_mode": "canned",
+      "canned_answer_from": "What did SEBI do about derivatives trading?",
+      "answer_matches_question": true,
+      "latency_ms": 0.323,
+      "answer": "SEBI announced six measures in October 2024 to curb speculative activity in index derivatives: increasing minimum contract size from 5 lakh to 15 lakh rupees, limiting weekly expiries to one per exchange, upfront collection of option premium from buyers, and increasing tail risk coverage by 2 percent on expiry day. SEBI research found that 93 percent of individual traders incurred losses in equity derivatives between FY22 and FY24, with aggregate losses of 1.81 lakh crore rupees."
+    },
+    {
+      "query": "How are mutual funds and SIPs performing in India?",
+      "in_qa_bank": true,
+      "expected_primary_doc": "IND025",
+      "retrieved_ids": [
+        "IND025",
+        "IND012",
+        "IND054",
+        "IND008"
+      ],
+      "rerank_scores": [
+        0.919,
+        0.823,
+        0.737,
+        0.665
+      ],
+      "dense_scores": [
+        0.943,
+        0.869,
+        0.778,
+        0.658
+      ],
+      "sparse_scores": [
+        0.858,
+        0.754,
+        0.68,
+        0.634
+      ],
+      "hit_at_1": true,
+      "hit_at_4": true,
+      "rr": 1.0,
+      "answer_mode": "canned",
+      "canned_answer_from": "How are mutual funds and SIPs performing in India?",
+      "answer_matches_question": true,
+      "latency_ms": 0.296,
+      "answer": "The Indian mutual fund industry's assets under management stood at 64.53 lakh crore rupees as of February 2025, growing 18.3 percent year-on-year from 54.54 lakh crore rupees. Equity-oriented schemes accounted for 27.4 lakh crore rupees. Systematic investment plan contributions reached 25,999 crore rupees in February 2025 with 10.24 crore active SIP accounts. Domestic Institutional Investors absorbed a record 6.06 lakh crore rupees of equity purchases in FY 2024-25."
+    },
+    {
+      "query": "What is India's GDP growth outlook?",
+      "in_qa_bank": true,
+      "expected_primary_doc": "IND004",
+      "retrieved_ids": [
+        "IND004",
+        "IND029",
+        "IND027",
+        "IND018"
+      ],
+      "rerank_scores": [
+        0.913,
+        0.836,
+        0.745,
+        0.666
+      ],
+      "dense_scores": [
+        0.921,
+        0.84,
+        0.754,
+        0.652
+      ],
+      "sparse_scores": [
+        0.86,
+        0.765,
+        0.68,
+        0.592
+      ],
+      "hit_at_1": true,
+      "hit_at_4": true,
+      "rr": 1.0,
+      "answer_mode": "canned",
+      "canned_answer_from": "What is India's fiscal deficit target?",
+      "answer_matches_question": false,
+      "latency_ms": 0.216,
+      "answer": "The Union Budget 2025-26 set the fiscal deficit target at 4.4 percent of GDP, down from the revised estimate of 4.8 percent for FY 2024-25. Gross market borrowing is budgeted at 14.82 lakh crore rupees with net borrowing of 11.54 lakh crore rupees. The government committed to reducing central government debt to approximately 50 percent of GDP by March 2031. Capital expenditure was allocated 11.21 lakh crore rupees, representing 3.1 percent of GDP."
+    },
+    {
+      "query": "How much gold did India import and what drove prices?",
+      "in_qa_bank": false,
+      "expected_primary_doc": "IND035",
+      "retrieved_ids": [
+        "IND030",
+        "IND031",
+        "IND035",
+        "IND051"
+      ],
+      "rerank_scores": [
+        0.926,
+        0.826,
+        0.736,
+        0.653
+      ],
+      "dense_scores": [
+        0.928,
+        0.864,
+        0.767,
+        0.677
+      ],
+      "sparse_scores": [
+        0.856,
+        0.807,
+        0.727,
+        0.637
+      ],
+      "hit_at_1": false,
+      "hit_at_4": true,
+      "rr": 0.3333333333333333,
+      "answer_mode": "canned",
+      "canned_answer_from": "How much GST is India collecting?",
+      "answer_matches_question": false,
+      "latency_ms": 0.345,
+      "answer": "Gross Goods and Services Tax collections reached 22.08 lakh crore rupees in FY 2024-25, growing 9.4 percent over the previous year. Average monthly collection stood at 1.84 lakh crore rupees compared to 1.68 lakh crore rupees in FY 2023-24. March 2025 collections were 1.96 lakh crore rupees. Net GST collections after refunds were 19.56 lakh crore rupees. Separately, net direct tax collections reached 22.26 lakh crore rupees, growing 13.13 percent."
+    },
+    {
+      "query": "What is the UPI transaction volume?",
+      "in_qa_bank": false,
+      "expected_primary_doc": "IND007",
+      "retrieved_ids": [
+        "IND001",
+        "IND002",
+        "IND004",
+        "IND007"
+      ],
+      "rerank_scores": [
+        0.92,
+        0.831,
+        0.741,
+        0.652
+      ],
+      "dense_scores": [
+        0.93,
+        0.837,
+        0.763,
+        0.664
+      ],
+      "sparse_scores": [
+        0.871,
+        0.78,
+        0.7,
+        0.637
+      ],
+      "hit_at_1": false,
+      "hit_at_4": true,
+      "rr": 0.25,
+      "answer_mode": "canned",
+      "canned_answer_from": "What is the current RBI repo rate?",
+      "answer_matches_question": false,
+      "latency_ms": 0.235,
+      "answer": "The Reserve Bank of India's Monetary Policy Committee reduced the policy repo rate by 25 basis points to 6.25 percent in February 2025, marking the first rate cut in nearly five years. The standing deposit facility rate was adjusted to 6.00 percent and the marginal standing facility rate to 6.50 percent. The MPC retained a neutral stance, with the decision supported by headline inflation moderating to 5.22 percent in December 2024. RBI projects CPI inflation at 4.2 percent for FY 2025-26."
+    },
+    {
+      "query": "How are microfinance loans performing?",
+      "in_qa_bank": false,
+      "expected_primary_doc": "IND021",
+      "retrieved_ids": [
+        "IND006",
+        "IND008",
+        "IND019",
+        "IND021"
+      ],
+      "rerank_scores": [
+        0.926,
+        0.829,
+        0.742,
+        0.666
+      ],
+      "dense_scores": [
+        0.942,
+        0.843,
+        0.75,
+        0.662
+      ],
+      "sparse_scores": [
+        0.836,
+        0.755,
+        0.726,
+        0.608
+      ],
+      "hit_at_1": false,
+      "hit_at_4": true,
+      "rr": 0.25,
+      "answer_mode": "extractive",
+      "canned_answer_from": null,
+      "answer_matches_question": false,
+      "latency_ms": 0.235,
+      "answer": "Bank credit growth moderated to 11.4 percent year-on-year as of February 2025, down from 16.5 percent in the corresponding period of 2024. Deposit growth stood at 10.6 percent, narrowing the credit-deposit gap that had pressured bank funding costs through 2024. Retail loan growth decelerated to 13.2 percent from 18.1 percent, with unsecured personal loans growing at 9.8 percent following RBI's increased risk weight requirements imposed in November 2023. The Reserve Bank of India's Financial Stability Report indicated that gross non-performing assets of scheduled commercial banks declined to a multi-decade low of 2.6 percent as of September 2024, from 2.7 percent in March 2024. The capital to risk-weighted assets ratio stood at 16.7 percent, well above the regulatory minimum of 11.5 percent. However, the report cautioned that GNPAs could rise to 3.0 percent by March 2026 under baseline st..."
+    },
+    {
+      "query": "What did the CCI fine Meta and WhatsApp?",
+      "in_qa_bank": false,
+      "expected_primary_doc": "IND056",
+      "retrieved_ids": [
+        "IND056"
+      ],
+      "rerank_scores": [
+        0.926
+      ],
+      "dense_scores": [
+        0.945
+      ],
+      "sparse_scores": [
+        0.872
+      ],
+      "hit_at_1": true,
+      "hit_at_4": true,
+      "rr": 1.0,
+      "answer_mode": "extractive",
+      "canned_answer_from": null,
+      "answer_matches_question": true,
+      "latency_ms": 0.527,
+      "answer": "The Competition Commission of India imposed a penalty of 213.14 crore rupees on Meta and WhatsApp for abuse of dominant position related to the 2021 privacy policy update. The CCI directed WhatsApp to cease sharing user data collected on its platform with other Meta companies for advertising purposes for a period of five years. The order noted that WhatsApp holds a dominant position in the over-the-top messaging application market in India with over 50 crore users...."
+    },
+    {
+      "query": "Who won the cricket world cup?",
+      "in_qa_bank": false,
+      "expected_primary_doc": null,
+      "retrieved_ids": [
+        "IND037"
+      ],
+      "rerank_scores": [
+        0.924
+      ],
+      "dense_scores": [
+        0.936
+      ],
+      "sparse_scores": [
+        0.86
+      ],
+      "hit_at_1": null,
+      "hit_at_4": null,
+      "rr": null,
+      "answer_mode": "extractive",
+      "canned_answer_from": null,
+      "answer_matches_question": false,
+      "latency_ms": 0.52,
+      "answer": "Wholesale food price inflation moderated to 5.9 percent in February 2025 from 11.4 percent in October 2024, driven by sharp corrections in vegetable prices. Onion prices declined 42 percent from October peaks and tomato prices fell 58 percent following improved arrivals. Cereal inflation remained elevated at 6.8 percent. The government's minimum support price for wheat was raised to 2,425 rupees per quintal for the 2025-26 marketing season, an increase of 6.6 percent...."
+    }
+  ]
+}
