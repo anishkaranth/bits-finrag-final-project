@@ -1,0 +1,108 @@
+{
+  "run_timestamp_ist": "2026-10-03 12:08 IST",
+  "environment": {
+    "streamlit": "1.65.0",
+    "python": "3.13.5",
+    "browser": "Playwright headless Chromium",
+    "external_api_keys_required": false
+  },
+  "ui_smoke_test": {
+    "login_user": "demo",
+    "bad_password_rejected": true,
+    "queries_asked": 6,
+    "answers_correct_for_question": "3/6",
+    "app_reported_latency_ms": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "browser_roundtrip_ms": [
+      1621,
+      1635,
+      1627,
+      1627,
+      1618,
+      1614
+    ],
+    "quota_after_run": "19 of 25 remaining, 6 total (Usage page)",
+    "remaining_caption_under_answer_off_by_one": true
+  },
+  "offline_eval": {
+    "corpus_documents": 60,
+    "distinct_sources": 32,
+    "distinct_topics": 29,
+    "qa_bank_size": 12,
+    "queries_evaluated": 17,
+    "graded_queries": 16,
+    "hit_at_1": 0.812,
+    "hit_at_4": 1.0,
+    "mrr": 0.865,
+    "answers_matching_question": 9,
+    "latency_ms_median": 0.258,
+    "latency_ms_max": 0.527,
+    "rerank_score_by_rank_over_50_runs": {
+      "rank_1": {
+        "min": 0.911,
+        "max": 0.931,
+        "mean": 0.9212
+      },
+      "rank_2": {
+        "min": 0.823,
+        "max": 0.842,
+        "mean": 0.8326
+      },
+      "rank_3": {
+        "min": 0.735,
+        "max": 0.755,
+        "mean": 0.7444
+      },
+      "rank_4": {
+        "min": 0.647,
+        "max": 0.666,
+        "mean": 0.656
+      }
+    }
+  },
+  "qa_bank_questions_answered_correctly": "8/12",
+  "free_form_probes_answered_correctly": "1/5",
+  "reported_ablation_from_dissertation_not_reproduced": {
+    "Dense only": {
+      "Faithfulness": 0.72,
+      "Answer relevancy": 0.77,
+      "Context recall": 0.69,
+      "NDCG@10": 0.67,
+      "MRR": 0.62
+    },
+    "Sparse BM25 only": {
+      "Faithfulness": 0.65,
+      "Answer relevancy": 0.72,
+      "Context recall": 0.65,
+      "NDCG@10": 0.61,
+      "MRR": 0.56
+    },
+    "Hybrid RRF": {
+      "Faithfulness": 0.81,
+      "Answer relevancy": 0.84,
+      "Context recall": 0.75,
+      "NDCG@10": 0.74,
+      "MRR": 0.69
+    },
+    "Hybrid + re-rank": {
+      "Faithfulness": 0.87,
+      "Answer relevancy": 0.88,
+      "Context recall": 0.81,
+      "NDCG@10": 0.77,
+      "MRR": 0.72
+    },
+    "FinRAG full": {
+      "Faithfulness": 0.89,
+      "Answer relevancy": 0.91,
+      "Context recall": 0.84,
+      "NDCG@10": 0.8,
+      "MRR": 0.75
+    }
+  }
+}

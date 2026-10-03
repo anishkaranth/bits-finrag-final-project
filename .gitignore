@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+run/
+users.json
+streamlit.log
+docs/
+notebook/FinRAG_India_original.ipynb

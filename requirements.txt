@@ -1,0 +1,5 @@
+streamlit>=1.30
+pandas
+# only for the scripts/ (testing + charts)
+matplotlib
+playwright
