@@ -1,0 +1,108 @@
+{
+  "bad_login_rejected": true,
+  "queries": [
+    {
+      "query": "What is the current RBI repo rate?",
+      "input": "typed",
+      "answer": "The Reserve Bank of India's Monetary Policy Committee reduced the policy repo rate by 25 basis points to 6.25 percent in February 2025, marking the first rate cut in nearly five years. The standing deposit facility rate was adjusted to 6.00 percent and the marginal standing facility rate to 6.50 percent. The MPC retained a neutral stance, with the decision supported by headline inflation moderating to 5.22 percent in December 2024. RBI projects CPI inflation at 4.2 percent for FY 2025-26.",
+      "sources": [
+        "keyboard_arrow_right\n\n1. RBI Monetary Policy Statement — RBI",
+        "keyboard_arrow_right\n\n2. RBI Inflation Outlook Assessment — RBI",
+        "keyboard_arrow_right\n\n3. RBI GDP Growth Projection — RBI",
+        "keyboard_arrow_right\n\n4. RBI Liquidity Measures — RBI"
+      ],
+      "first_source_relevance_shown": 0.92,
+      "app_reported_ms": 0,
+      "n_sources": 4,
+      "queries_remaining_shown": 23,
+      "browser_roundtrip_ms": 1621,
+      "caption": "Answered in 0 ms | 4 sources | 23 queries remaining today"
+    },
+    {
+      "query": "How did Indian equity markets perform in FY 2024-25?",
+      "input": "typed",
+      "answer": "The Nifty 50 closed FY 2024-25 at 23,519 points, gaining 5.3 percent for the financial year, substantially lower than the 28.6 percent return in FY 2023-24. The BSE Sensex ended at 77,415 points with a 4.9 percent return. The Nifty touched an all-time high of 26,277 in September 2024 before correcting approximately 16 percent. Foreign Portfolio Investors withdrew a record 1.42 lakh crore rupees, offset by Domestic Institutional Investors purchasing 6.06 lakh crore rupees.",
+      "sources": [
+        "keyboard_arrow_right\n\n1. Nifty 50 Market Performance — NSE",
+        "keyboard_arrow_right\n\n2. BSE Sensex Annual Review — BSE",
+        "keyboard_arrow_right\n\n3. Foreign Portfolio Investment Flows — NSDL",
+        "keyboard_arrow_right\n\n4. Domestic Institutional Investment — Economic Times"
+      ],
+      "first_source_relevance_shown": 0.92,
+      "app_reported_ms": 0,
+      "n_sources": 4,
+      "queries_remaining_shown": 22,
+      "browser_roundtrip_ms": 1635,
+      "caption": "Answered in 0 ms | 4 sources | 22 queries remaining today"
+    },
+    {
+      "query": "What are the new income tax slabs in Budget 2025-26?",
+      "input": "typed",
+      "answer": "Under the Union Budget 2025-26, individuals earning up to 12 lakh rupees annually pay no income tax under the new regime, rising to 12.75 lakh rupees for salaried taxpayers including the 75,000 rupee standard deduction. The revised slabs are: 5 percent for 4-8 lakh, 10 percent for 8-12 lakh, 15 percent for 12-16 lakh, 20 percent for 16-20 lakh, 25 percent for 20-24 lakh, and 30 percent above 24 lakh rupees. The revenue foregone is estimated at 1 lakh crore rupees.",
+      "sources": [
+        "keyboard_arrow_right\n\n1. Union Budget 2025-26 Tax Reform — Ministry of Finance",
+        "keyboard_arrow_right\n\n2. Fiscal Deficit Target FY26 — Ministry of Finance",
+        "keyboard_arrow_right\n\n3. Direct Tax Collection Performance — CBDT",
+        "keyboard_arrow_right\n\n4. Cryptocurrency Taxation India — CBDT"
+      ],
+      "first_source_relevance_shown": 0.92,
+      "app_reported_ms": 0,
+      "n_sources": 4,
+      "queries_remaining_shown": 21,
+      "browser_roundtrip_ms": 1627,
+      "caption": "Answered in 0 ms | 4 sources | 21 queries remaining today"
+    },
+    {
+      "query": "What is India's renewable energy capacity?",
+      "input": "typed",
+      "answer": "The Union Budget 2025-26 set the fiscal deficit target at 4.4 percent of GDP, down from the revised estimate of 4.8 percent for FY 2024-25. Gross market borrowing is budgeted at 14.82 lakh crore rupees with net borrowing of 11.54 lakh crore rupees. The government committed to reducing central government debt to approximately 50 percent of GDP by March 2031. Capital expenditure was allocated 11.21 lakh crore rupees, representing 3.1 percent of GDP.",
+      "sources": [
+        "keyboard_arrow_right\n\n1. Renewable Energy Capacity — MNRE",
+        "keyboard_arrow_right\n\n2. Green Hydrogen Mission Progress — MNRE",
+        "keyboard_arrow_right\n\n3. Power Demand and Generation — Ministry of Power",
+        "keyboard_arrow_right\n\n4. RBI Monetary Policy Statement — RBI"
+      ],
+      "first_source_relevance_shown": 0.93,
+      "app_reported_ms": 0,
+      "n_sources": 4,
+      "queries_remaining_shown": 20,
+      "browser_roundtrip_ms": 1627,
+      "caption": "Answered in 0 ms | 4 sources | 20 queries remaining today"
+    },
+    {
+      "query": "How much gold did India import and what drove prices?",
+      "input": "typed",
+      "answer": "Gross Goods and Services Tax collections reached 22.08 lakh crore rupees in FY 2024-25, growing 9.4 percent over the previous year. Average monthly collection stood at 1.84 lakh crore rupees compared to 1.68 lakh crore rupees in FY 2023-24. March 2025 collections were 1.96 lakh crore rupees. Net GST collections after refunds were 19.56 lakh crore rupees. Separately, net direct tax collections reached 22.26 lakh crore rupees, growing 13.13 percent.",
+      "sources": [
+        "keyboard_arrow_right\n\n1. GST Collection Trends — Ministry of Finance",
+        "keyboard_arrow_right\n\n2. Direct Tax Collection Performance — CBDT",
+        "keyboard_arrow_right\n\n3. Gold Price and Import Trends — Business Standard",
+        "keyboard_arrow_right\n\n4. Real Estate Sector Trends — Knight Frank India"
+      ],
+      "first_source_relevance_shown": 0.93,
+      "app_reported_ms": 0,
+      "n_sources": 4,
+      "queries_remaining_shown": 19,
+      "browser_roundtrip_ms": 1618,
+      "caption": "Answered in 0 ms | 4 sources | 19 queries remaining today"
+    },
+    {
+      "query": "What is happening with the Indian rupee?",
+      "input": "sample button",
+      "answer": "The Reserve Bank of India's Monetary Policy Committee reduced the policy repo rate by 25 basis points to 6.25 percent in February 2025, marking the first rate cut in nearly five years. The standing deposit facility rate was adjusted to 6.00 percent and the marginal standing facility rate to 6.50 percent. The MPC retained a neutral stance, with the decision supported by headline inflation moderating to 5.22 percent in December 2024. RBI projects CPI inflation at 4.2 percent for FY 2025-26.",
+      "sources": [
+        "keyboard_arrow_right\n\n1. Indian Rupee Exchange Rate — RBI",
+        "keyboard_arrow_right\n\n2. RBI Forex Reserves Update — RBI",
+        "keyboard_arrow_right\n\n3. Current Account Deficit — RBI",
+        "keyboard_arrow_right\n\n4. Foreign Portfolio Investment Flows — NSDL"
+      ],
+      "first_source_relevance_shown": 0.91,
+      "app_reported_ms": 0,
+      "n_sources": 4,
+      "queries_remaining_shown": 18,
+      "browser_roundtrip_ms": 1614,
+      "caption": "Answered in 0 ms | 4 sources | 18 queries remaining today"
+    }
+  ],
+  "usage_page_text": "Usage\n\nYour query quota and activity\n\nRemaining today\n\n19\n\nDaily limit\n\n25\n\nTotal queries\n\n6\n\nUsed 6 of 25 queries. Quota resets daily at midnight.\n\nAccount\n\nName: Demo User\n\nUsername: demo\n\nLast active: 2026-10-03"
+}
